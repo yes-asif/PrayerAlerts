@@ -1,7 +1,10 @@
 name: Build APK
 
+# Test build on every push to a branch (download it from the run's Artifacts).
+# Releases are built by release.yml instead.
 on:
   push:
+    branches: ['**']
   workflow_dispatch:
 
 jobs:
