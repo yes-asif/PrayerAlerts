@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Header artwork: night sky, crescent and mosque silhouette.
+     The image lives in drawable-nodpi so Android doesn't upscale it in memory on high-density screens. -->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/bg_mosque_image"
+    android:antialias="true"
+    android:filter="true"
+    android:dither="true" />

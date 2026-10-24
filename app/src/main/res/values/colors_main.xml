@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Main screen palette, sampled from the design mock. -->
+<resources>
+    <color name="panel">#171B20</color>
+    <color name="card_next">#F21F2328</color>
+    <color name="card_row">#E6202429</color>
+    <color name="card_row_stroke">#2C313A</color>
+    <color name="icon_tile">#14171A</color>
+    <color name="gold">#E2C06C</color>
+    <color name="gold_dim">#665A3F</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#C9CACE</color>
+    <color name="status_bar">#053747</color>
+</resources>

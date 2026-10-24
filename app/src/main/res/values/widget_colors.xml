@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Widget colours for Android 8–11. Android 12+ uses wallpaper colours (values-v31). -->
+<resources>
+    <color name="widget_bg">#F4FBF8</color>
+    <color name="widget_text">#161D1B</color>
+    <color name="widget_text_secondary">#3F4946</color>
+    <color name="widget_accent">#0F6E5C</color>
+    <color name="widget_highlight">#CDEBE3</color>
+    <color name="widget_on_highlight">#00201A</color>
+</resources>

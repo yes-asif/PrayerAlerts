@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Emerald background with a soft centre glow and a gold rim -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:type="radial"
+        android:centerX="0.5"
+        android:centerY="0.35"
+        android:gradientRadius="180dp"
+        android:startColor="@color/wg_green_center"
+        android:endColor="@color/wg_green_edge" />
+    <stroke android:width="1.5dp" android:color="@color/wg_gold_border" />
+    <corners android:radius="22dp" />
+</shape>

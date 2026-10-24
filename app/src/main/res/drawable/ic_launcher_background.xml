@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Night sky -->
+    <path android:fillColor="#04203B" android:pathData="M0,0h108v108h-108z" />
+    <!-- Green glow behind the mosque -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="54" android:centerY="62" android:gradientRadius="42">
+                <item android:color="#FF34CC93" android:offset="0" />
+                <item android:color="#E61C9A7A" android:offset="0.35" />
+                <item android:color="#800A5C5C" android:offset="0.72" />
+                <item android:color="#0004203B" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Ground -->
+    <path android:fillColor="#052A22" android:pathData="M0,79h108v29h-108z" />
+</vector>

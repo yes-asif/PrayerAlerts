@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prayer Alerts</string>
+    <string name="next_prayer">Next prayer</string>
+    <string name="load_month">Load month from image or PDF</string>
+    <string name="alert_sounds">Alert sounds</string>
+    <string name="test_alert">Test alert</string>
+    <string name="loaded_months">Loaded months</string>
+    <string name="months_hint">Tap to review or edit · long-press to delete</string>
+    <string name="show_image">Image</string>
+    <string name="save_timetable">Save timetable</string>
+    <string name="review_title">Check the times</string>
+    <string name="sounds_title">Alert sounds</string>
+    <string name="widget_next_name">Prayer countdown</string>
+    <string name="widget_today_name">Today\'s prayers</string>
+    <string name="widget_next_desc">Active prayer and the time it has left</string>
+    <string name="widget_today_desc">All of today\'s prayers, active one marked</string>
+    <string name="widget_tap_to_load">Tap to load timetable</string>
+    <string name="widget_no_times">No times loaded for today — tap to add</string>
+    <string name="label_now">NOW</string>
+    <string name="label_next">NEXT</string>
+    <string name="widget_card_name">Prayer card</string>
+    <string name="widget_card_desc">Active prayer, its time, time left and the next prayer</string>
+    <string name="wg_today_title">TODAY\'S PRAYERS</string>
+</resources>

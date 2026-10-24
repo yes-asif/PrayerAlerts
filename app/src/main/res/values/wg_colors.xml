@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widget palette (emerald + gold), from the widget mocks. -->
+<resources>
+    <color name="wg_green_center">#114239</color>
+    <color name="wg_green_edge">#092823</color>
+    <color name="wg_green_deep">#06201C</color>
+    <color name="wg_dark_top">#1E1A11</color>
+    <color name="wg_dark_bottom">#0D0C09</color>
+    <color name="wg_gold_border">#C9A55C</color>
+    <color name="wg_gold">#E2C47C</color>
+    <color name="wg_gold_bright">#F4D88C</color>
+    <color name="wg_gold_glow">#99E8C26A</color>
+    <color name="wg_green_text">#43C690</color>
+    <color name="wg_white">#FFFFFF</color>
+    <color name="wg_divider">#33C9A55C</color>
+    <color name="wg_row_active">#2A2312</color>
+</resources>

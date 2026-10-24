@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dark bronze background with a gold rim (Today's prayers) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:angle="270"
+        android:startColor="@color/wg_dark_top"
+        android:endColor="@color/wg_dark_bottom" />
+    <stroke android:width="1.5dp" android:color="@color/wg_gold_border" />
+    <corners android:radius="20dp" />
+</shape>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wide 4x2: active prayer, its time, time left, and the next prayer -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wg_bg_green">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1.5dp"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/wg_mosque_faint" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/c_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:letterSpacing="0.06"
+            android:maxLines="1"
+            android:text="FAJR PRAYER"
+            android:textColor="@color/wg_gold"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/c_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:maxLines="1"
+            android:shadowColor="@color/wg_gold_glow"
+            android:shadowRadius="14"
+            android:text="5:04 AM"
+            android:textColor="@color/wg_white"
+            android:textSize="34sp" />
+
+        <Chronometer
+            android:id="@+id/c_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:maxLines="1"
+            android:textColor="@color/wg_green_text"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/c_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/montserrat"
+            android:maxLines="1"
+            android:text="Next: DHUHR at 12:45 PM"
+            android:textColor="@color/wg_gold"
+            android:textSize="14sp" />
+    </LinearLayout>
+</FrameLayout>

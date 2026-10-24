@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#0F6E5C</color>
+    <color name="brand_light">#CDEBE3</color>
+    <color name="brand_dark_container">#0B4A3E</color>
+    <color name="launcher_bg">#0F6E5C</color>
+    <color name="flag_fill">#40E53935</color>
+    <color name="flag_stroke">#E53935</color>
+    <color name="cell_stroke">#5A8A8A8A</color>
+</resources>

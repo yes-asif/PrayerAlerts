@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp" android:height="120dp"
+    android:viewportWidth="120" android:viewportHeight="120">
+    <!-- darker emerald folds -->
+    <path android:fillColor="#99062019" android:pathData="M0,64C24,66 40,84 44,120L0,120Z" />
+    <path android:fillColor="#99062019" android:pathData="M120,64C96,66 80,84 76,120L120,120Z" />
+    <path android:fillColor="#5506201A" android:pathData="M0,80C18,82 28,98 30,120L0,120Z" />
+    <path android:fillColor="#5506201A" android:pathData="M120,80C102,82 92,98 90,120L120,120Z" />
+    <!-- gold swoosh lines -->
+    <path android:fillColor="#00000000" android:strokeColor="#D9C9A55C" android:strokeWidth="1.1"
+        android:pathData="M0,64C24,66 40,84 44,120" />
+    <path android:fillColor="#00000000" android:strokeColor="#D9C9A55C" android:strokeWidth="1.1"
+        android:pathData="M120,64C96,66 80,84 76,120" />
+    <path android:fillColor="#00000000" android:strokeColor="#80C9A55C" android:strokeWidth="0.7"
+        android:pathData="M0,80C18,82 28,98 30,120" />
+    <path android:fillColor="#00000000" android:strokeColor="#80C9A55C" android:strokeWidth="0.7"
+        android:pathData="M120,80C102,82 92,98 90,120" />
+    <!-- crescent + star -->
+    <path android:fillColor="#00000000" android:strokeColor="#E2C47C" android:strokeWidth="1.1"
+        android:strokeLineJoin="round"
+        android:pathData="M57.71,95.54A7.5,7.5 0 1,0 65.73,105.00A6.2,6.2 0 0,1 57.71,95.54Z" />
+    <path android:fillColor="#00000000" android:strokeColor="#E2C47C" android:strokeWidth="0.9"
+        android:strokeLineJoin="round"
+        android:pathData="M67.5,96.5L68.3,98.4L70.4,98.6L68.8,100L69.3,102L67.5,101L65.7,102L66.2,100L64.6,98.6L66.7,98.4Z" />
+</vector>
