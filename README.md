@@ -104,15 +104,25 @@ Extra columns on the left (weekday, Hijri date) and Iqama rows are fine. The app
 2. Connect your phone with USB debugging on and press **Run**. Or use **Build › Build App Bundle(s)/APK(s) › Build APK(s)**; the APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
 
 ### Option B — GitHub Actions (no local setup)
-Every push runs [`.github/workflows/build-apk.yml`](.github/workflows/build-apk.yml).
+Every push to a branch runs [`.github/workflows/build-apk.yml`](.github/workflows/build-apk.yml) and produces a test build.
 1. Open the **Actions** tab and select the latest run.
 2. Download **PrayerAlerts-apk** from *Artifacts*.
 3. Install it on your phone. You'll need to allow *Install unknown apps*.
+
+### Option C — Download a release
+Ready-made APKs are attached to each [release](../../releases). Open the latest one, download `PrayerAlerts-vX.Y.apk` under *Assets*, and install it.
 
 ### Command line
 ```bash
 ./gradlew assembleDebug
 ```
+
+### Making a release
+1. On github.com open **Releases › Draft a new release**.
+2. Under *Choose a tag*, type a new tag such as `v1.2` and choose **Create new tag on publish**. Add a title and notes, then click **Publish release**.
+3. The [`release.yml`](.github/workflows/release.yml) workflow builds the APK. It takes about 4 minutes and attaches `PrayerAlerts-v1.2.apk` to the release.
+
+The app's version name comes from the tag (`v1.2` → `1.2`). The version code increases automatically on every build, so any newer build installs over an older one.
 
 ### About signing
 `app/prayeralerts-debug.keystore` is a **debug** key committed on purpose. Every machine and CI run then signs with the same key, so new builds install over old ones. Don't use it for a Play Store release; create your own release key for that.

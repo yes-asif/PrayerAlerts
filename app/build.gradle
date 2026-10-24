@@ -2,6 +2,12 @@ plugins {
     id 'com.android.application'
 }
 
+// Version code goes up by itself on every build (minutes since 1 Jan 2026), so any new
+// build — Android Studio, a push, or a release — always installs over the previous one.
+def autoVersionCode = ((System.currentTimeMillis().intdiv(1000L) - 1767225600L).intdiv(60L)) as int
+// Version name comes from the release tag (-PappVersionName=1.2); local/test builds use the default.
+def appVersionName = project.findProperty('appVersionName') ?: '1.1'
+
 android {
     namespace 'com.asif.prayeralerts'
     compileSdk 34
@@ -10,8 +16,8 @@ android {
         applicationId "com.asif.prayeralerts"
         minSdk 26
         targetSdk 34
-        versionCode 2
-        versionName "1.1"
+        versionCode autoVersionCode
+        versionName appVersionName
     }
 
     // Same key on every machine (Android Studio or GitHub), so new versions install over old ones.
@@ -29,6 +35,8 @@ android {
             signingConfig signingConfigs.debug
         }
         release {
+            // Signed with the same included key, so release and test builds update each other.
+            signingConfig signingConfigs.debug
             minifyEnabled false
         }
     }
